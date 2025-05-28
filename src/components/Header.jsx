@@ -21,10 +21,10 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Flowers & Saints</span>
+            <span className="sr-only">Mobile for You</span>
             <img
               className="h-8 w-auto"
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/creative-SW6QDQbcVuwPgb6a2CYtYmRbsJa4k1.png"
+              src="https://th.bing.com/th/id/OIP._RsGI2uRb-P8KBhWubXDjQHaHZ?w=197&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7"
               alt="Flowers & Saints Logo"
             />
           </Link>
@@ -36,7 +36,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="text-sm font-semibold leading-6 text-foreground hover:text-primary transition-colors"
           >
-            Work
+            Brand_New
           </a>
           <a
             href="https://www.flowersandsaints.com.au"
@@ -44,7 +44,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="text-sm font-semibold leading-6 text-foreground hover:text-primary transition-colors"
           >
-            About
+            Used
           </a>
           <a
             href="https://www.flowersandsaints.com.au"
