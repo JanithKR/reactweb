@@ -21,12 +21,9 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Mobile for You</span>
-            <img
-              className="h-8 w-auto"
-              src="https://th.bing.com/th/id/OIP._RsGI2uRb-P8KBhWubXDjQHaHZ?w=197&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-              alt="Flowers & Saints Logo"
-            />
+            <span className="text-gradient text-4xl" >
+            JK-MOBILE
+            </span>
           </Link>
         </div>
         <div className="flex gap-x-12">
