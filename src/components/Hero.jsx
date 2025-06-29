@@ -13,7 +13,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-gradient">Flowers & Saints</span>
+            <span className="text-gradient">JK-MOBILE</span>
           </motion.h1>
           <motion.p
             className="mt-6 text-lg leading-8 text-muted-foreground"
@@ -21,8 +21,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Where minimal design meets floral artistry. We craft elegant experiences that inspire and elevate your
-            space.
+           "Upgrade your mobile life with the newest phones and top-quality gear."
           </motion.p>
           <motion.div
             className="mt-10 flex items-center gap-x-6"
