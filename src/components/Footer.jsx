@@ -17,7 +17,7 @@ export default function Footer() {
           ))}
         </nav>
         <p className="mt-10 text-center text-sm leading-5 text-muted-foreground">
-          Designed & Developed with ❤️ by Dollar Gill. Copyright Flowers & Saints
+        dsfdgfgfgf
         </p>
       </div>
     </footer>
