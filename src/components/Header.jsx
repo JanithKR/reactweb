@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link to="/" className="-m-1.5 p-1.5">
             <span className="text-gradient text-4xl" >
-            JK-MOBILE
+            JK-MOBILE center
             </span>
           </Link>
         </div>
