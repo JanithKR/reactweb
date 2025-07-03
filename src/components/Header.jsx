@@ -49,7 +49,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="text-sm font-semibold leading-6 text-foreground hover:text-primary transition-colors"
           >
-            Contract
+            Contract details
           </a>
         </div>
         <div className="flex flex-1 justify-end">
