@@ -1,23 +1,23 @@
 import Hero from "../components/Hero"
-import WearYourStory from "../components/WearYourStory"
+import Marquee from "../components/Marquee"
 import FeatureCarousel from "../components/FeatureCarousel"
 import PortfolioGrid from "../components/PortfolioGrid"
 import Timeline from "../components/Timeline"
-import Marquee from "../components/Marquee"
 import ContactForm from "../components/ContactForm"
-import NewsletterSubscribe from "../components/NewsletterSubscribe"
+import Footer from "../components/Footer"
 
-export default function Home() {
+const Home = () => {
   return (
-    <>
+    <div>
       <Hero />
-      <WearYourStory />
+      <Marquee text="JK-MOBILE • WEB DEVELOPMENT • MOBILE APPS • UI/UX DESIGN • INNOVATION • CREATIVE SOLUTIONS • " />
       <FeatureCarousel />
       <PortfolioGrid />
       <Timeline />
-      <Marquee />
       <ContactForm />
-      <NewsletterSubscribe />
-    </>
+      <Footer />
+    </div>
   )
 }
+
+export default Home

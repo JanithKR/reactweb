@@ -1,26 +1,32 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+"use client"
+
+import { useState } from "react"
+import "./App.css"
 import { ThemeProvider } from "./components/theme-provider"
 import Header from "./components/Header"
-import Footer from "./components/Footer"
 import Home from "./pages/Home"
-import "./index.css"
+import MyNewPage from "./pages/MyNewPage"
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("home")
+
+  const renderCurrentPage = () => {
+    switch (currentPage) {
+      case "mynewpage":
+        return <MyNewPage />
+      case "home":
+      default:
+        return <Home />
+    }
+  }
+
   return (
-    <Router>
-      <ThemeProvider defaultTheme="system" enableSystem>
-        <div className="min-h-screen bg-background text-foreground">
-          <Header />
-          <main>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              {/* Add other routes as needed */}
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </ThemeProvider>
-    </Router>
+    <ThemeProvider defaultTheme="light" storageKey="jkr-ui-theme">
+      <div className="App">
+        <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+        {renderCurrentPage()}
+      </div>
+    </ThemeProvider>
   )
 }
 

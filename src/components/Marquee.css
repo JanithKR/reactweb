@@ -1,0 +1,59 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background: transparent;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll-left 25s linear infinite;
+  white-space: nowrap;
+}
+
+.marquee-text {
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.03);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  padding-right: 4rem;
+  user-select: none;
+  pointer-events: none;
+  font-family: "Arial", sans-serif;
+}
+
+/* Dark mode support */
+.dark .marquee-text {
+  color: rgba(255, 255, 255, 0.03);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .marquee-text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .marquee-text {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .marquee-text {
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+  }
+}
