@@ -5,20 +5,50 @@ export default function MyNewPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-8">Welcome to My New Page</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-8">JK BRAND NEW</h1>
 
           <div className="bg-white rounded-xl shadow-xl p-8 mb-8">
-            <h2 className="text-3xl font-semibold text-gray-800 mb-6">About This Page</h2>
+            <h2 className="text-3xl font-semibold text-gray-800 mb-6">AVAILABLE MOBILE</h2>
             <p className="text-lg text-gray-600 mb-8">
-              This is your brand new custom page! You can add any content you want here.
+              Upgrade your brand new mobile life with the newest phones and top-quality gear.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-                <div className="text-4xl mb-4">🚀</div>
-                <h3 className="text-xl font-semibold text-blue-800 mb-3">Fast</h3>
-                <p className="text-blue-600">Lightning fast performance and loading times.</p>
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i_11.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11</h3>
+                <p className="text-blue-600">Powerful camera, fast performance, and durable design at an affordable price</p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+              <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                <img 
+                  src="/images/i11-pro.jpeg" 
+                  alt="Fast performance" 
+                  className="object-cover w-full h-full"
+                />
               </div>
+              <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11pro </h3>
+              <p className="text-blue-600">OLED display, triple-camera system, and powerful A13 Bionic chip</p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+              <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                <img 
+                  src="/images/i11-pro.jpeg" 
+                  alt="Fast performance" 
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11pro </h3>
+              <p className="text-blue-600">OLED display, triple-camera system, and powerful A13 Bionic chip</p>
+            </div>
 
               <div className="bg-green-50 p-6 rounded-lg border border-green-200">
                 <div className="text-4xl mb-4">💡</div>
