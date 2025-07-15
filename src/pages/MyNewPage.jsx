@@ -24,31 +24,151 @@ export default function MyNewPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11</h3>
                 <p className="text-blue-600">Powerful camera, fast performance, and durable design at an affordable price</p>
-            </div>
-
-            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-              <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
-                <img 
-                  src="/images/i11-pro.jpeg" 
-                  alt="Fast performance" 
-                  className="object-cover w-full h-full"
-                />
               </div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11pro </h3>
-              <p className="text-blue-600">OLED display, triple-camera system, and powerful A13 Bionic chip</p>
-            </div>
 
-            <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
-              <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
-                <img 
-                  src="/images/i11-pro.jpeg" 
-                  alt="Fast performance" 
-                  className="object-cover w-full h-full"
-                />
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i11-pro.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11pro </h3>
+                <p className="text-blue-600">OLED display, triple-camera system, and powerful A13 Bionic chip</p>
               </div>
-              <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 11pro </h3>
-              <p className="text-blue-600">OLED display, triple-camera system, and powerful A13 Bionic chip</p>
-            </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i12.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 12</h3>
+                <p className="text-blue-600">sleek design, 5G connectivity, and a vibrant OLED display with powerful performance and improved cameras</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i12-pro.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 12pro</h3>
+                <p className="text-blue-600">sleek design, 5G connectivity, and a vibrant OLED display with 
+                  powerful performance and improved cameras</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i13.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 13</h3>
+                <p className="text-blue-600">improved battery life, powerful A15 Bionic performance, 
+                  and enhanced dual cameras in a sleek design with 5G connectivity</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i13pro.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 13pro</h3>
+                <p className="text-blue-600">6.1-inch OLED display with ProMotion 120Hz refresh rate, 
+                  a powerful A15 Bionic chip,and a versatile triple-camera system with LiDAR</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i14.png" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 14</h3>
+                <p className="text-blue-600">6.1-inch OLED display with ProMotion 120Hz refresh rate, 
+                  a powerful A15 Bionic chip, and a versatile triple-camera system with LiDAR</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i14pro.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 14pro</h3>
+                <p className="text-blue-600">sleek design, powerful A16 Bionic chip, stunning 6.1-inch OLED 
+                  display with Always-On and Dynamic Island</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i15.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 15</h3>
+                <p className="text-blue-600">USB-C charging, a powerful A16 Bionic chip, and a 48MP camera with 
+                  enhanced low-light performance</p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i15pro.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 15pro</h3>
+                <p className="text-blue-600">blazing-fast A17 Pro chip,
+                   customizable Action button, USB-C connectivity, and a powerful triple-camera system 
+                </p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i16.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 16</h3>
+                <p className="text-blue-600">new Camera Control button, Apple Intelligence features, 
+                  and a powerful A18 chip
+                </p>
+              </div>
+
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/i16pro.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 16pro</h3>
+                <p className="text-blue-600">a sleek titanium design,powerful A18 Pro chip, upgraded 48MP 
+                  ultra-wide and 5x telephoto cameras
+                </p>
+              </div>
 
               <div className="bg-green-50 p-6 rounded-lg border border-green-200">
                 <div className="text-4xl mb-4">💡</div>
