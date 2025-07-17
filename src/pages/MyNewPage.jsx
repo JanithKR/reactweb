@@ -17,7 +17,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i_11.jpeg" 
+                    src="/images/iphone/i_11.jpeg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -29,7 +29,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i11-pro.jpeg" 
+                    src="/images/iphone/i11-pro.jpeg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -41,7 +41,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i12.jpeg" 
+                    src="/images/iphone/i12.jpeg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -53,7 +53,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i12-pro.jpg" 
+                    src="/images/iphone/i12-pro.jpg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -66,7 +66,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i13.jpeg" 
+                    src="/images/iphone/i13.jpeg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -79,7 +79,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i13pro.jpeg" 
+                    src="/images/iphone/i13pro.jpeg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -92,7 +92,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i14.png" 
+                    src="/images/iphone/i14.png" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -105,7 +105,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i14pro.jpg" 
+                    src="/images/iphone/i14pro.jpg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -118,7 +118,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i15.jpg" 
+                    src="/images/iphone/i15.jpg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -131,7 +131,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i15pro.jpg" 
+                    src="/images/iphone/i15pro.jpg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -145,7 +145,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i16.jpeg" 
+                    src="/images/iphone/i16.jpeg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -159,7 +159,7 @@ export default function MyNewPage() {
               <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/i16pro.jpg" 
+                    src="/images/iphone/i16pro.jpg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
@@ -171,9 +171,17 @@ export default function MyNewPage() {
               </div>
 
               <div className="bg-green-50 p-6 rounded-lg border border-green-200">
-                <div className="text-4xl mb-4">💡</div>
-                <h3 className="text-xl font-semibold text-green-800 mb-3">Smart</h3>
-                <p className="text-green-600">Intelligent solutions for modern problems.</p>
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/samsung/s24ultra.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">S24 ULTRA</h3>
+                <p className="text-blue-600">6.8" AMOLED display, titanium frame, and powerful Snapdragon 
+                  8 Gen 3 chip. It features a 200MP quad camera setup
+                </p>
               </div>
 
               <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
