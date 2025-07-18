@@ -180,7 +180,7 @@ export default function MyNewPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-blue-800 mb-3">S24 ULTRA</h3>
                 <p className="text-blue-600">6.8" AMOLED display, titanium frame, and powerful Snapdragon 
-                  8 Gen 3 chip. It features a 200MP quad camera setup
+                  8 Gen 3 chip. It 
                 </p>
               </div>
 
