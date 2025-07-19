@@ -184,10 +184,46 @@ export default function MyNewPage() {
                 </p>
               </div>
 
+              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/samsung/s25ultra.jpeg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">S25 ULTRA</h3>
+                <p className="text-blue-600">massive 6.9" AMOLED display, Snapdragon 8 Elite chip, 
+                  200MP quad-camera system, and powerful on-device AI tools
+                </p>  
+              </div>
+
+              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/samsung/A05.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">SAMSUNG A05</h3>
+                <p className="text-blue-600">powerful 50MP rear camera, and a long-lasting 5000mAh battery. 
+                  It's great for everyday tasks
+                </p>  
+              </div>
+
               <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
-                <div className="text-4xl mb-4">🎨</div>
-                <h3 className="text-xl font-semibold text-purple-800 mb-3">Beautiful</h3>
-                <p className="text-purple-600">Stunning design that catches the eye.</p>
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/samsung/A05.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">SAMSUNG A05</h3>
+                <p className="text-blue-600">powerful 50MP rear camera, and a long-lasting 5000mAh battery. 
+                  It's great for everyday tasks
+                </p>
               </div>
             </div>
 
