@@ -212,38 +212,68 @@ export default function MyNewPage() {
                 </p>  
               </div>
 
-              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
+              <div className="bg-green-50 p-6 rounded-lg border border-green-200">
                 <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
                   <img 
-                    src="/images/samsung/A05.jpg" 
+                    src="/images/samsung/A36.jpg" 
                     alt="Fast performance" 
                     className="object-cover w-full h-full"
                   />
                 </div>
-                <h3 className="text-xl font-semibold text-blue-800 mb-3">SAMSUNG A05</h3>
-                <p className="text-blue-600">powerful 50MP rear camera, and a long-lasting 5000mAh battery. 
-                  It's great for everyday tasks
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">SAMSUNG A36</h3>
+                <p className="text-blue-600">powerful mid-range phone featuring a vibrant 6.7" AMOLED display 
+                  and fast Snapdragon 6 Gen 3 performancepowerful 
                 </p>
               </div>
+
+              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/pixel/p7.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">PIXEL 7</h3>
+                <p className="text-blue-600">powerful mid-range phone featuring a vibrant 6.7" AMOLED display 
+                  and fast Snapdragon 6 Gen 3 performancepowerful 
+                </p>
+              </div>
+
+              <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
+                <div className="w-40 h-40 overflow-hidden mx-auto mb-4">
+                  <img 
+                    src="/images/pixel/p7pro.jpg" 
+                    alt="Fast performance" 
+                    className="object-cover w-full h-full"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-blue-800 mb-3">PIXEL 7PRO</h3>
+                <p className="text-blue-600">powerful mid-range phone featuring a vibrant 6.7" AMOLED display 
+                  and fast Snapdragon 6 Gen 3 performancepowerful 
+                </p>
+              </div>
+
+
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Contact Information</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-4">Contact US</h3>
               <div className="grid md:grid-cols-2 gap-4 text-left">
                 <div>
                   <p className="text-gray-600">
-                    <strong>Email:</strong> your-email@example.com
+                    <strong>Email:</strong> jkmobile@gmail.com
                   </p>
                   <p className="text-gray-600">
-                    <strong>Phone:</strong> +1 (555) 123-4567
+                    <strong>Mobile:</strong> 0779834515
                   </p>
                 </div>
                 <div>
                   <p className="text-gray-600">
-                    <strong>Website:</strong> www.yoursite.com
+                    <strong>Land:</strong> 0112234321
                   </p>
                   <p className="text-gray-600">
-                    <strong>Location:</strong> Your City, Country
+                    <strong>Location:</strong> MInuwangoda,Gmapaha
                   </p>
                 </div>
               </div>
