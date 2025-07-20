@@ -1,11 +1,11 @@
 "use client"
 
-export default function MyNewPage() {
+export default function Used() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-5xl font-bold text-gray-900 mb-8">JK BRAND NEW</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-8">JK W</h1>
 
           <div className="bg-white rounded-xl shadow-xl p-8 mb-8">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">AVAILABLE MOBILE</h2>

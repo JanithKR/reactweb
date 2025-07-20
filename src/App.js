@@ -6,12 +6,15 @@ import { ThemeProvider } from "./components/theme-provider"
 import Header from "./components/Header"
 import Home from "./pages/Home"
 import MyNewPage from "./pages/MyNewPage"
+import Used from "./pages/Used"
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home")
 
   const renderCurrentPage = () => {
     switch (currentPage) {
+      case "used":
+        return <Used />
       case "mynewpage":
         return <MyNewPage />
       case "home":

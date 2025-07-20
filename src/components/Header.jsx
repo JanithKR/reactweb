@@ -8,6 +8,11 @@ export default function Header({ currentPage, setCurrentPage }) {
     setCurrentPage("mynewpage")
   }
 
+  const handleusedClick = () => {
+    console.log("Brand_New clicked") // Debug log
+    setCurrentPage("used")
+  }
+
   return (
     <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div className="flex lg:flex-1">
@@ -26,16 +31,16 @@ export default function Header({ currentPage, setCurrentPage }) {
               currentPage === "BrandNew" ? "text-blue-600" : "text-foreground hover:text-primary"
             }`}
           >
-            Brand_New
+            BRAND_NEW
           </button>
-          <a
-            href="https://google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-semibold leading-6 text-foreground hover:text-primary transition-colors"
+          <button
+            onClick={handleusedClick}
+            className={`text-sm font-semibold leading-6 transition-colors cursor-pointer bg-transparent border-none ${
+              currentPage === "BrandNew" ? "text-blue-600" : "text-foreground hover:text-primary"
+            }`}
           >
             Used
-          </a>
+          </button>
         </div>
         <ThemeToggle />
       </div>
