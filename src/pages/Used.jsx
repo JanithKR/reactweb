@@ -269,7 +269,7 @@ export default function Used() {
                 </div>
                 <div>
                   <p className="text-gray-600">
-                    <strong>Land:</strong> 0112234321
+                    <strong>Residance:</strong> 0112234321
                   </p>
                   <p className="text-gray-600">
                     <strong>Location:</strong> MInuwangoda,Gmapaha
