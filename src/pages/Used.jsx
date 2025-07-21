@@ -236,7 +236,7 @@ export default function Used() {
                 </div>
                 <h3 className="text-xl font-semibold text-blue-800 mb-3">PIXEL 7</h3>
                 <p className="text-blue-600">moother visuals, faster processing, and a sleek, 
-                  durable design. For premium users
+                  durable design. For premium 
                 </p>
               </div>
 
