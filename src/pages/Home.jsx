@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
+      {/* <Marquee text="JK-MOBILE • WEB DEVELOPMENT • MOBILE APPS • UI/UX DESIGN • INNOVATION • CREATIVE SOLUTIONS • " /> */}
       <Marquee text="JK-MOBILE • WEB DEVELOPMENT • MOBILE APPS • UI/UX DESIGN • INNOVATION • CREATIVE SOLUTIONS • " />
       <FeatureCarousel />
       <PortfolioGrid />

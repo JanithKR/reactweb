@@ -13,20 +13,26 @@
 }
 
 .marquee-text {
-  font-size: 5rem;
-  font-weight: 900;
-  color: rgba(0, 0, 0, 0.03);
+  font-size: 4rem; /* slightly smaller for balance */
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.25em;
   padding-right: 4rem;
   user-select: none;
   pointer-events: none;
-  font-family: "Arial", sans-serif;
+
+  font-family: 'Playfair Display', serif; /* more elegant & stylish */
+  color: rgba(12, 8, 245, 0.955); /* soft slate tone */
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05); /* subtle depth */
+
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
 }
+
 
 /* Dark mode support */
 .dark .marquee-text {
-  color: rgba(255, 255, 255, 0.03);
+  color: rgba(12, 8, 245, 0.955);
 }
 
 @keyframes scroll-left {
