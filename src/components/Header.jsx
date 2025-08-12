@@ -31,7 +31,7 @@ export default function Header({ currentPage, setCurrentPage }) {
               currentPage === "BrandNew" ? "text-blue-600" : "text-foreground hover:text-primary"
             }`}
           >
-            BRAND_NEW
+            BRANDNEW
           </button>
           <button
             onClick={handleusedClick}
