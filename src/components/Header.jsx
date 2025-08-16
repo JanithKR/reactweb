@@ -39,7 +39,7 @@ export default function Header({ currentPage, setCurrentPage }) {
               currentPage === "BrandNew" ? "text-blue-600" : "text-foreground hover:text-primary"
             }`}
           >
-            Used
+            USED
           </button>
         </div>
         <ThemeToggle />
