@@ -21,7 +21,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-           "Upgrade your mobile life with the newest phones and top-quality gear."
+           "Upgrade your mobile life with the brand new phones and top-quality gear."
           </motion.p>
           <motion.div
             className="mt-10 flex items-center gap-x-6"
