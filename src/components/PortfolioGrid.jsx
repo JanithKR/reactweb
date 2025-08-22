@@ -66,7 +66,7 @@ export default function PortfolioGrid() {
         >
           <h2 className="text-3xl font-bold text-foreground sm:text-4xl">Our Work</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A showcase of our minimalist designs and creative solutions.
+            A showcase of our minimalist  and creative solutions.
           </p>
         </motion.div>
 
