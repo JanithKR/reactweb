@@ -152,7 +152,7 @@ export default function MyNewPage() {
                 </div>
                 <h3 className="text-xl font-semibold text-blue-800 mb-3">Apple Iphone 16</h3>
                 <p className="text-blue-600">new Camera Control button, Apple Intelligence features, 
-                  and a powerful A18 chip
+                  and a powerful 
                 </p>
               </div>
 
